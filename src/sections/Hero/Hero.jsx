@@ -6,7 +6,7 @@ import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/resume.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -38,10 +38,13 @@ function Hero() {
         </h1>
         <h2> Frontend Developer</h2>
         <span>
-          <a href="https://linkedin.com" target="_blank"></a>
-          <img src={linkedInIcon} alt="LinkedIn Icon" />
-          <a href="https://github.com" target="_blank"></a>
-          <img src={githubIcon} alt="gitHub Icon" />
+          <a href="https://linkedin.com" target="_blank">
+            <img src={linkedInIcon} alt="LinkedIn Icon" />
+          </a>
+
+          <a href="https://github.com" target="_blank">
+            <img src={githubIcon} alt="gitHub Icon" />
+          </a>
         </span>
         <p className={styles.description}>
           With a passion for developing modern web applications using Angular,

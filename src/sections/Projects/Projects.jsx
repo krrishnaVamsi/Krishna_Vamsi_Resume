@@ -1,9 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import styles from "./ProjectStyles.module.css";
-import viber from "../../assets/viberr.png";
+import Handcrafted from "../../assets/handcrafted.png";
 import ProjectCard from "../../common/ProjectCard";
-import freshBurger from "../../assets/fresh-burger.png";
+import Blockchain from "../../assets/blockchain.png";
+import BBS from "../../assets/bbs.png";
 
 function Projects() {
   return (
@@ -11,16 +12,22 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viber}
-          link="https://www.githuib.com"
-          h3="viber"
-          p="Streaming App"
+          src={Handcrafted}
+          link="https://github.com/krrishnaVamsi/handcrafted"
+          h3="Handcrafted"
+          p="E-commerce for Hand-made artifacts"
         ></ProjectCard>
         <ProjectCard
-          src={freshBurger}
-          link="https://www.githuib.com"
-          h3="Fresh Burgerr"
-          p="food Delivery App"
+          src={Blockchain}
+          link="https://github.com/krrishnaVamsi/DS157_Hexacoders"
+          h3="BBFS"
+          p="Blockchain Based Farmer Scheme System"
+        ></ProjectCard>
+        <ProjectCard
+          src={BBS}
+          link="https://github.com/krrishnaVamsi/DS157_Hexacoders"
+          h3="BBS"
+          p="Blockchain Based Student certificate Verification"
         ></ProjectCard>
       </div>
     </section>
