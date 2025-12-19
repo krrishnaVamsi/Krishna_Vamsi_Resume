@@ -6,7 +6,9 @@ function WorkCard({ src, link, h3, p }) {
   return (
     <a href="">
       <img className="hover" src={src} alt={`${h3} logo`} />
+      <br></br>
       <h3>{h3}</h3>
+      <br></br>
       <p>{p}</p>
     </a>
   );
